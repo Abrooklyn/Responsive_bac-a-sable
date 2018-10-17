@@ -1,0 +1,202 @@
+/*palette de couleur
+jaune pale
+rgb(228,229,185) - version foncé rgb(187,178,119)
+(#e4e5b9) - version foncé (#bbb277)
+
+jaune
+rgb(255,226,144) - version foncé rgb(201,133,58)
+(#ffe272) - version foncé (#c9853a)
+
+saumon
+rgb(235,125,90) - version foncé rgb(174,71,64)
+(#eb7d5a) - version foncé (#ae4740)
+
+bordeau
+rgb(156,58,81) - version foncé rgb(93,28,58)
+(#9c3a51) - version foncé (#5d1c3a)
+
+violet
+rgb(81,49,88) - version foncé rgb(39,20,52)
+(#513158) - version foncé (#271434)
+
+*/
+
+/*Polices Utilisées*/
+
+ /*font-family: 'Amatic SC', cursive;*/
+
+/*header*/
+.body_page{
+	margin-left: 20em;
+	margin-right: 20em;
+  font-family: 'Amatic SC', cursive;
+}
+
+.top_bloc{
+	background-color: rgb(228,229,185);
+	justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+/*navigation*/
+.navigation{
+  background-color: rgb(255,226,114);
+}
+
+.navigation ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em 2em 1em 2em;
+  margin-top: -1em;
+  font-size: 1.7em;
+}
+
+.navigation a{
+  color: rgb(201,133,58);
+}
+
+.navigation a:hover{
+  color: rgb(171,103,18);
+}
+
+/*section principal*/
+
+.article_principal{
+  background-color: rgb(235,125,90);
+  margin-top: -2em;
+  padding: 0.2em 3em 1em 3em;
+}
+
+.article_principal h2{
+  font-size: 3em;
+  color: rgb(174,71,64);
+}
+
+/*section 3blocs*/
+
+.blocs_activites{
+  background-color: rgb(156,58,81);
+  padding: 0.2em 3em 1em 3em;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.blocs_activites .bloc_lorem h3{
+  font-size: 3em;
+}
+
+.blocs_activites .bloc_ipsum h3{
+  font-size: 3em;
+}
+
+.blocs_activites .bloc_dolor h3{
+  font-size: 3em;
+}
+
+/*footer*/
+
+.bottom_page h5{
+  font-size: 1em;
+  text-align: right;
+}
+
+.bottom_page p{
+  font-size: 1em;
+}
+
+
+
+/*résolution pour smartphone*/
+
+
+
+/*header_smartphone*/
+.body_page{
+	margin-left: 1em;
+	margin-right: 1em;
+  font-family: 'Amatic SC', cursive;
+}
+
+.top_bloc{
+	background-color: rgb(228,229,185);
+	justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+/*navigation_smartphone*/
+
+.navigation{
+  background-color: rgb(255,226,114);
+}
+
+.navigation ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5em 2em 1em 2em;
+  margin-top: -1em;
+  font-size: 1.7em;
+}
+
+.navigation a{
+  color: rgb(201,133,58);
+}
+
+.navigation a:hover{
+  color: rgb(171,103,18);
+}
+
+/*section principal_smartphone*/
+
+.article_principal{
+  background-color: rgb(235,125,90);
+  margin-top: -2em;
+  padding: 0.2em 3em 1em 3em;
+}
+
+.article_principal h2{
+  font-size: 3em;
+  color: rgb(174,71,64);
+}
+
+/*section 3blocs_smartphone*/
+
+.blocs_activites{
+  background-color: rgb(156,58,81);
+  padding: 0.2em 3em 1em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.blocs_activites .bloc_lorem h3{
+  font-size: 3em;
+}
+
+.blocs_activites .bloc_ipsum h3{
+  font-size: 3em;
+}
+
+.blocs_activites .bloc_dolor h3{
+  font-size: 3em;
+}
+
+/*footer_smartphone*/
+
+.bottom_page h5{
+  font-size: 1em;
+  text-align: right;
+}
+
+.bottom_page p{
+  font-size: 1em;
+}
